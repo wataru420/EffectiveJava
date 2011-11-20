@@ -18,7 +18,7 @@ public class Main3 {
 		noBoxing();
 		System.out.println("noBoxing : " + (System.currentTimeMillis() - start) + "ミリ秒");
 	}
-
+		
 	public static Long whithBoxing() {
 		Long sum = 0L;
 		for (long i = 0; i < Integer.MAX_VALUE; i++) {
