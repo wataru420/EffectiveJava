@@ -4,7 +4,8 @@ package part8.term51;
 public class Main3 {
 
 	/**
-	 * Stringの結合テスト２
+	 * Stringの結合テスト３
+	 * 徐々に結合する量を増やしていってみる
 	 * 
 	 * @param args
 	 */

@@ -16,7 +16,14 @@ public class Main {
 			}
 		};
 		
-		System.out.println(naturalOrder.compare(new Integer(42), new Integer(42)));
+		//System.out.println(naturalOrder.compare(new Integer(42), new Integer(42)));
+		for (int i=0; i<Integer.MAX_VALUE;i++) {
+			if (naturalOrder.compare(i, i) != 0) {
+				System.out.println(i + ":" + naturalOrder.compare(i, i));
+				break;
+			}
+		}
+		System.out.println(naturalOrder.compare(4200000, 4200000));
 		
 	}
 

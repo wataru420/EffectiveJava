@@ -5,6 +5,7 @@ public class Main2 {
 
 	/**
 	 * Stringの結合テスト２
+	 * 一回で大量の文字列を結合してみる
 	 * 
 	 * @param args
 	 */
@@ -13,7 +14,7 @@ public class Main2 {
 		long start = System.currentTimeMillis();
 		String test1 = "";
 		for(int i = 0; i < 100000; i++) {
-			test1 += "文字列" + 1;
+			test1 += "文字列" + i;
 		}
 		System.out.println("String : " + (System.currentTimeMillis() - start) + "ミリ秒");
 		

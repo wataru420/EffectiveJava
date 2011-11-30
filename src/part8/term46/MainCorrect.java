@@ -13,7 +13,7 @@ public class MainCorrect {
 	
 	
 	/**
-	 * 従来のFor文で間違えてしまう例
+	 * 拡張Forを使って書いた例
 	 * @param args
 	 */
 	public static void main(String[] args) {

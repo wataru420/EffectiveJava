@@ -5,6 +5,7 @@ public class Main {
 
 	/**
 	 * Stringの結合テスト
+	 * 小さな結合を何度も繰り返してみる
 	 * 
 	 * @param args
 	 */
